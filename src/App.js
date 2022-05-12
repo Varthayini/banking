@@ -1,13 +1,15 @@
 import './App.css';
 import Login from './login.js'
 
-function App() {
+export default function App() {
 
   return (
-    <div className="App">
+    <> 
+    <p>
+    Welcome to Crystal Delta Banking
+    </p>
       <Login/>
-    </div>
+    </>
   );
 }
-
-export default App;
+//export default App;

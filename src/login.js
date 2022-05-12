@@ -1,11 +1,13 @@
 import React from 'react'
 import './login.css'
+import pic from './delta.jpeg'
 function App () {
   return (
-    <>
     
-    <div className="App">
-      Welcome to Crystal Delta Banking
+    <>
+    <div className='header'> <div className='pic'><img src={pic} width='80px' height='80px' alt=''/></div>
+    <div className='App'>
+     
       <h1> Login to your account</h1>
       <h3> Customer ID</h3>
       <input type="text" name="Username" placeholder="Enter your email_id" size="50"></input>
@@ -19,10 +21,7 @@ function App () {
       <br/>
       <br/>
       <br/>
-      
-      
-    
-
+    </div>
     </div>
  </>
   );
