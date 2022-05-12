@@ -1,7 +1,5 @@
 .App{
-    
-   
-  width: 382px;  
+    width: 382px;  
     overflow:hidden;  
         margin: auto;  
 
@@ -20,8 +18,7 @@
     width:100px;
     top:50px;
     left:100px;
-    
-}
+    }
 .header{
   
 }
