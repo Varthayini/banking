@@ -1,6 +1,6 @@
 import React from 'react'
 import './login.css'
-import pic from './delta.jpeg'
+import pic from './logopng.png'
 function App () {
   return (
     

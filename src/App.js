@@ -5,8 +5,10 @@ export default function App() {
 
   return (
     <> 
-    <p>
-    Welcome to Crystal Delta Banking
+    <p className='title'>
+    Welcome to <br>
+    </br> <span style={{color:'orange'}}>Crystal Delta</span> <br>
+    </br>Banking
     </p>
       <Login/>
     </>
